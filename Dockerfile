@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.5
+ENV VERSION=0.2.6
 
 RUN gem install alexvollmer-httparty --version ${VERSION} --no-format-exec
 
